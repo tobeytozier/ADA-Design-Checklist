@@ -1,0 +1,59 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3861730, 2020-01-30T10:35:06-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Museo-500 by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo/500/
+ * Copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: Unlimited
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+  
+@font-face {
+    font-family: 'Museo-500';
+    src: url('webfonts/museo/3AECE2_0_0.eot');
+    src: url('webfonts/museo/3AECE2_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/museo/3AECE2_0_0.woff2') format('woff2'),url('webfonts/museo/3AECE2_0_0.woff') format('woff'),url('webfonts/museo/3AECE2_0_0.ttf') format('truetype');
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3861732, 2020-01-30T10:38:05-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Soleil-Bold by TypeTogether
+ * URL: https://www.myfonts.com/fonts/type-together/soleil/bold/
+ * Copyright: Copyright (c) 2011 by Wolfgang Homola, distributed by TypeTogether. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3aece4");
+
+  
+@font-face {
+    font-family: 'Soleil-Bold';
+    src: url('webfonts/3AECE4_0_0.eot');
+    src: url('webfonts/3AECE4_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3AECE4_0_0.woff2') format('woff2'),url('webfonts/3AECE4_0_0.woff') format('woff'),url('webfonts/3AECE4_0_0.ttf') format('truetype');
+}
+ 
+ 

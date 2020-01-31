@@ -1,0 +1,42 @@
+<h1 id="web-launch-checklist---httpsweblaunchchecklistcom">Web Launch Checklist - <a href="https://weblaunchchecklist.com/">https://weblaunchchecklist.com/</a></h1>
+<p>This website displays the most useful and effective tips for Performance, SEO, Security, Accessibility, Content, and Functionality for websites in checklist form. The checkboxes and counters persist through localstorage and the whole document can be downloaded in multiple formats. I want it to be easy to edit so please fork and suggest changes!</p>
+<p>To start a development environment run these commands:</p>
+<p><code>npm install</code> in the root directory of this project</p>
+<p><code>gulp default</code> to watch for changes in main.scss and main.js</p>
+<h2 id="contributing">Contributing</h2>
+<p>Please read the following for details on the process of submitting change ideas.</p>
+<h3 id="contributing-with-code">Contributing with code:</h3>
+<p>Create a fork of this repository, run the above commands to start a development environment, then submit a pull request with a title starting either &quot;New:&quot;, &quot;Modify:&quot;, or &quot;Remove:&quot; depending on the nature of your change.</p>
+<p>Here is a sample of what the HTML code block looks like where the all caps text is replaceable. The &quot;...&quot; is where I removed some fixed code for the purposes of examples.</p>
+<pre><code class="language-HTML"> &lt;section class=&quot;checklist&quot;&gt;
+        &lt;h2 class=&quot;checklist__title&quot;&gt;TITLE OF SECTION&lt;/h2&gt;
+        ...
+        &lt;ul class=&quot;checklist-container&quot;&gt;
+            &lt;li class=&quot;checklist-item&quot;&gt;
+                &lt;input id=&quot;&quot; type=&quot;checkbox&quot;/&gt;&lt;label for=&quot;&quot; class=&quot;checkbox&quot;&gt;&lt;/label&gt;&lt;span
+                    class=&quot;checklist-item__title&quot;&gt;CHECKLIST ITEM TITLE&lt;/span&gt;
+               ...
+                &lt;div class=&quot;info-container&quot;&gt;
+                    &lt;div class=&quot;info&quot;&gt;
+                        EXTRA INFORMATION
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;</code></pre>
+<ul>
+<li>Repeat the <code>&lt;li class=&quot;checklist-item&quot;&gt;</code> block for more checklist items.</li>
+<li>Repeat the <code>&lt;section class=&quot;checklist&quot;&gt;</code> block for more checklist sections.</li>
+</ul>
+<p>You should limit yourself to editing the:</p>
+<ul>
+<li>Title of the section <em>(h2 class=&quot;checklist__title&quot;)</em></li>
+<li>Checklist item title <em>(span class=&quot;checklist-item__title&quot;)</em></li>
+<li>Extra information, keep in mind that only unordered lists and links have defined styles <em>(div class=&quot;info&quot;)</em></li>
+</ul>
+<h3 id="contributing-without-coding">Contributing without coding:</h3>
+<p>Create an <a href="https://github.com/HarrisJT/web-launch-checklist/issues/new">Issue</a> with a title starting either &quot;New:&quot;, &quot;Modify:&quot;, or &quot;Remove:&quot; depending on the nature of your suggestion. Please be as detailed as possible and include credible links where necessary</p>
+<hr>
+<ul>
+<li><strong>Harris J. Thompson</strong> - <em>Creator</em> - <a href="https://harrisjt.com/">Portfolio</a></li>
+</ul>
+<p>See also the list of <a href="https://github.com/HarrisJT/web-launch-checklist/graphs/contributors">contributors</a> who participated in this project.</p>
+<p>This project is licensed under the CC BY-SA 4.0 License - see the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en_GB">Creative Commons License</a> website for details</p>
